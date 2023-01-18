@@ -1,0 +1,50 @@
+.scroll_page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #141414;
+}
+.scroll_page > h1 {
+    font-size: 48px;
+    align-self: center;
+    text-transform: uppercase;
+}
+.carousel_container {
+    width: 80vw;
+}
+
+.window {
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+  
+}
+.window::-webkit-scrollbar {
+    width: 0;
+  }
+.scroll_inner {
+    display: flex;
+    gap: 2rem;
+}
+.scroll_inner img{
+    width: 350px;
+    height: 425px;
+}
+
+@media (max-width: 768px) {
+    .scroll_page > h1 {
+        font-size: 24px;
+    }
+    .carousel_container {
+        width: 100vw;
+    }
+}
+@media (min-width:769px) and (max-width: 1440px) {
+    .scroll_page > h1 {
+        font-size: 30px;
+    }
+    .carousel_container {
+        width: 90vw;
+    }
+}

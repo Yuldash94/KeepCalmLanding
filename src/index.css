@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('//db.onlinewebfonts.com/c/f5e2ac463b8577d9c10996cbd7c74c23?family=Orchidea+Pro');
+body {
+  margin: 0 auto;
+  font-family: 'Manrope', sans-serif;
+}
+ 
+h1, h2, h3 {
+  font-family: "Orchidea Pro", sans-serif;
+}
